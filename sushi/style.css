@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-weight: 100;
+    background-color: #FEFEFE;
+}
+
+.header{
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.7)),url('img/chef.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 95vh;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    padding: 30px;
+}
+
+.text-box{
+    color: #FFFFFF;
+}
+
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.main-text{
+    display: block;
+    position: relative;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    left: 60%;
+    color: #E8EAE9;
+    margin-top: 120px;
+}
+
+.sub-text{
+    display: block;
+    position: relative;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    left: 60%;
+    color: #E8EAE9;
+    margin-top: 30px;
+}
